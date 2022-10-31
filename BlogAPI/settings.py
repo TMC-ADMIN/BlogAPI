@@ -84,7 +84,9 @@ TEMPLATES = [
 WSGI_APPLICATION = "BlogAPI.wsgi.application"
 
 CORS_ALLOWED_ORIGINS = [
-    "https://localhost:3000",
+    "https://localhost:2000",
+    "http://127.0.0.1:2000",
+
 ]
 
 
